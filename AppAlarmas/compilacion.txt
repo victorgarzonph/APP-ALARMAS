@@ -1,0 +1,5 @@
+1.Descargar x64 Native Tools Command Prompt for VS Insiders
+
+2. cd C:\Users\Victor\OneDrive\Documentos\POO\PlantaLicores_Alarmas\AppAlarmas
+
+3.  cl src\main.cpp libs\imgui\imgui.cpp libs\imgui\imgui_draw.cpp libs\imgui\imgui_tables.cpp libs\imgui\imgui_widgets.cpp libs\imgui\backends\imgui_impl_glfw.cpp libs\imgui\backends\imgui_impl_opengl3.cpp /I libs\imgui /I libs\imgui\backends /I"C:\Users\Victor\OneDrive\Documentos\POO\vcpkg\installed\x64-windows\include" /link /LIBPATH:"C:\Users\Victor\OneDrive\Documentos\POO\vcpkg\installed\x64-windows\lib" glfw3dll.lib opengl32.lib gdi32.lib user32.lib shell32.lib /OUT:app.exe
